@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-05T11:44:13 IST" name="Default suite" finished-at="2024-03-05T11:44:13 IST" duration-ms="76">
+    <groups>
+    </groups>
+    <test started-at="2024-03-05T11:44:13 IST" name="Default test" finished-at="2024-03-05T11:44:13 IST" duration-ms="76">
+      <class name="Test.TestClass">
+        <test-method is-config="true" signature="suiteopen()[pri:0, instance:Test.TestClass@fa4c865]" started-at="2024-03-05T11:44:13 IST" name="suiteopen" finished-at="2024-03-05T11:44:13 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteopen -->
+        <test-method is-config="true" signature="testexecutionon()[pri:0, instance:Test.TestClass@fa4c865]" started-at="2024-03-05T11:44:13 IST" name="testexecutionon" finished-at="2024-03-05T11:44:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testexecutionon -->
+        <test-method is-config="true" signature="openbrowserwindow()[pri:0, instance:Test.TestClass@fa4c865]" started-at="2024-03-05T11:44:13 IST" name="openbrowserwindow" finished-at="2024-03-05T11:44:13 IST" duration-ms="28" status="FAIL">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.io.FileNotFoundException: D:\Eclipse Folder\OracleSiteTesting\LogFolders\chromelog1.txt (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.io.FileNotFoundException: D:\Eclipse Folder\OracleSiteTesting\LogFolders\chromelog1.txt (The system cannot find the path specified)
+at org.openqa.selenium.remote.service.DriverService$Builder.getLogOutput(DriverService.java:485)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.createDriverService(ChromeDriverService.java:417)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.createDriverService(ChromeDriverService.java:197)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:507)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:166)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
+at generics.BaseTest.openbrowserwindow(BaseTest.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.io.FileNotFoundException: D:\Eclipse Folder\OracleSiteTesting\LogFolders\chromelog1.txt (The system cannot find the path specified)
+at java.base/java.io.FileOutputStream.open0(Native Method)
+at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+at org.openqa.selenium.remote.service.DriverService$Builder.getLogOutput(DriverService.java:482)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowserwindow -->
+        <test-method signature="execution()[pri:0, instance:Test.TestClass@fa4c865]" started-at="2024-03-05T11:44:13 IST" name="execution" finished-at="2024-03-05T11:44:13 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.io.FileNotFoundException: D:\Eclipse Folder\OracleSiteTesting\LogFolders\chromelog1.txt (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.io.FileNotFoundException: D:\Eclipse Folder\OracleSiteTesting\LogFolders\chromelog1.txt (The system cannot find the path specified)
+at org.openqa.selenium.remote.service.DriverService$Builder.getLogOutput(DriverService.java:485)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.createDriverService(ChromeDriverService.java:417)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.createDriverService(ChromeDriverService.java:197)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:507)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:166)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
+at generics.BaseTest.openbrowserwindow(BaseTest.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.io.FileNotFoundException: D:\Eclipse Folder\OracleSiteTesting\LogFolders\chromelog1.txt (The system cannot find the path specified)
+at java.base/java.io.FileOutputStream.open0(Native Method)
+at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+at org.openqa.selenium.remote.service.DriverService$Builder.getLogOutput(DriverService.java:482)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execution -->
+        <test-method is-config="true" signature="closebrowserwindow()[pri:0, instance:Test.TestClass@fa4c865]" started-at="2024-03-05T11:44:13 IST" name="closebrowserwindow" finished-at="2024-03-05T11:44:13 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowserwindow -->
+        <test-method is-config="true" signature="testexecutionoff()[pri:0, instance:Test.TestClass@fa4c865]" started-at="2024-03-05T11:44:13 IST" name="testexecutionoff" finished-at="2024-03-05T11:44:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testexecutionoff -->
+        <test-method is-config="true" signature="closeopen()[pri:0, instance:Test.TestClass@fa4c865]" started-at="2024-03-05T11:44:13 IST" name="closeopen" finished-at="2024-03-05T11:44:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeopen -->
+      </class> <!-- Test.TestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
